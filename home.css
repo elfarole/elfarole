@@ -105,13 +105,3 @@ body{
     font-size: 30px;
     color: aquamarine;
 }
-.rodape{
-    padding: 50px;
-    border-top: 1px solid #fff2e7;
-
-}
-.rodape-imagem{
-    height: 300px;
-    display: block;
-    margin: 0 auto;
-}
