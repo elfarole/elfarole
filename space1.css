@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+    /*margin é para definir a margem referência da posição do objeto*/
+    margin: 0;
+    /*paddin é uma distância interna (ainda não interpretei corretamente*/
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 200%;
+    background: linear-gradient(black,purple);
+
+ 
+}
+.cabeçalho{
+    display: flex;
+    flex-direction:row;
+    font-size: 95%;
+    align-items: center;
+    justify-content: space-around;
+    color: aquamarine;
+    padding: 10px;
+    
+}
+.conteudo{
+    
+    margin-bottom: 500px;
+    border-top: 1px solid aquamarine;
+ 
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    
+}
+.conteudo-principal-lista-texto{
+    color: aquamarine;
+}
+.conteudo-principal-lista-texto:hover{
+    background-color: purple;
+}

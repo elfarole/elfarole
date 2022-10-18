@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+    /*margin é para definir a margem referência da posição do objeto*/
+    margin: 0;
+    /*paddin é uma distância interna (ainda não interpretei corretamente*/
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 200%;
+    background: linear-gradient(black, purple);
+    max-width: 1400px;
+}
+.cabeçalho{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+.cabeçalho-imagem{
+    background-image:url(images/IMG-20191217-WA0098.jpg);
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+
+}
+.cabeçalho-menu{
+    display: flex;
+    gap: 50px;
+}
+.cabeçalho-menu-item{
+    font-family: 'Lato', sans-serif;
+    color: aquamarine;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 10px;
+}
+.cabeçalho-menu-item:hover{
+    color: purple;
+}
+.conteudo{
+    
+    margin-bottom: 50px;
+    border-top: 1px solid aquamarine;
+    
+
+}
+.conteudo-principal{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.conteudo-principal-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+.conteudo-principal-texto-titulo{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: purple;
+}
+.conteudo-principal-texto-botao{
+    background-color: aquamarine;
+    width: 250px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
+.conteudo-principal-texto-botao:hover{
+    background-color: purple;
+}
+.conteudo-secundario{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+ 
+
+}
+.conteudo-secundario-imagem{ 
+    border-top: 1px solid aquamarine;
+    padding: 50px;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 200;
+    color: aqua;  
+}
+.conteudo-secundario-paragrafo{
+    font-family: 'Comforter Brush', cursive;
+    font-weight: 200;
+    font-size: 30px;
+    color: aquamarine;
+}
+.rodape{
+    padding: 50px;
+    border-top: 1px solid #fff2e7;
+
+}
+.rodape-imagem{
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
